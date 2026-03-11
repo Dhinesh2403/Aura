@@ -10,6 +10,7 @@ st.title("Aura AI Agent")
 client = ChatCompletionsClient(
     endpoint="https://github.ai",
     credential=AzureKeyCredential(st.secrets["GITHUB_TOKEN"]),
+    connection_timeout=120,
 )
 
 # 2. Simple Chat UI
