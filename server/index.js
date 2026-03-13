@@ -110,7 +110,6 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
-// 2. IMPORTANT: Vercel handles the port; app.listen is only for local dev
 if (process.env.NODE_ENV !== 'production') {
   const PORT = process.env.PORT || 3000;
   app.listen(PORT, () => console.log(`Local server on http://localhost:${PORT}`));
