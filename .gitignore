@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+env/
+.env
+.env.*
+secrets.toml
+
+# Certificates and keys
+*.pem
+*.key
+*.crt
+combined.pem
+dhineshkumarpc.crt
+dhineshkumarpc.key
+
+# Node
+node_modules/
+server/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+*.log
