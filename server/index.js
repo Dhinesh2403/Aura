@@ -57,7 +57,6 @@ app.post('/api/chat', async (req, res) => {
             3.  **Always Clarify:** If the user's request is incomplete, you MUST ask clarifying questions to get the information you need. Never create a note or reminder with placeholder text.
 
             **Interaction Flow:**
-
             *   **For Notes:**
                 *   If the user says "add a note" or "take a note", and does not provide the content, you MUST ask "What would you like the note to say?".
                 *   Once you have the content, you will respond in a specific format.
